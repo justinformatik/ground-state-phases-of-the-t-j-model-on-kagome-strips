@@ -1,5 +1,3 @@
 # Thesis Abstract
 
 In this thesis, the ground state phases of the `t-J` model on kagome strips are investigated. The ground state energy `E_0` and state vector `|ψ_0⟩` are numerically computed with ITensor's DMRG implementation in Julia. The phases are distinguished by the results obtained for the spin gap and three different correlation functions. The singlet pairing `P_ij`, density-density `N_ij`, and spin-spin `S_ij` correlation functions are computed, as well as the eigenvalues of `P_ij`, which can both indicate quasi-long-range order in the system. These calculations are performed for different values of `J` and two fillings `n = 1/3` and `n = 1/8` in order to sketch a phase diagram. The results are compared with those of the `t-J` chain published in the literature.
-
-To run the code, one needs to specify the paths of the data and where to save the plots/data.
